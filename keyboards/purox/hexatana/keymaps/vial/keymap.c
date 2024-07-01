@@ -48,9 +48,3 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
                                           KC_LCTL, KC_LGUI,  KC_SPC,     KC_ENT, _______, KC_LALT
   )
 };
-
-const uint16_t PROGMEM bspc_comb[]  = {KC_U, KC_I, COMBO_END};
-const uint16_t PROGMEM cbspc_comb[] = {KC_U, KC_O, COMBO_END};
-const uint16_t PROGMEM del_comb[]   = {KC_I, KC_O, COMBO_END};
-combo_t                key_combos[] = {COMBO(bspc_comb, KC_BSPC), COMBO(cbspc_comb, LCTL(KC_BSPC)), COMBO(del_comb, KC_DEL)};
-uint16_t               COMBO_LEN    = sizeof(key_combos) / sizeof(*key_combos);
