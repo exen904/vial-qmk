@@ -1,3 +1,2 @@
 WS2812_DRIVER = vendor
 COMBO_ENABLE = yes
-VIAL_INSECURE =yes
