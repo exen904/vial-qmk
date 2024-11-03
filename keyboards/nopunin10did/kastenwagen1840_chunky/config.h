@@ -17,6 +17,6 @@
 #pragma once
 
 /* Indicator LEDs */
-#define LED_INDICATOR_TOP   11
-#define LED_INDICATOR_MID   4
-#define LED_INDICATOR_BOT   5
+#define LED_INDICATOR_TOP   B0
+#define LED_INDICATOR_MID   D4
+#define LED_INDICATOR_BOT   C6
