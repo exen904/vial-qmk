@@ -22,7 +22,7 @@ void keyboard_pre_init_kb(void) {
     setPinOutput(LED_INDICATOR_TOP);
     setPinOutput(LED_INDICATOR_MID);
     setPinOutput(LED_INDICATOR_BOT);
-    keyboard_pre_init_user();
+/*    keyboard_-pre_init_user();*/
 }
 
 __attribute__((weak)) layer_state_t layer_state_set_user(layer_state_t state) {
